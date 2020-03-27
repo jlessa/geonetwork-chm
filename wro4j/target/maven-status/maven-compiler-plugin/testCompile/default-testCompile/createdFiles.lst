@@ -1,0 +1,11 @@
+org\fao\geonet\wro4j\AddFileUriCommentProcessorTest.class
+org\fao\geonet\wro4j\GeonetWroModelFactoryTest$1.class
+org\fao\geonet\wro4j\ClosureRequireDependencyManagerTest.class
+org\fao\geonet\wro4j\RemoveSourceMapUrlProcessorTest.class
+org\fao\geonet\wro4j\TemplatesUriLocatorTest.class
+org\fao\geonet\wro4j\ClosureRequireDependencyManagerTest$1.class
+org\fao\geonet\wro4j\StripGoogProcessorTest.class
+org\fao\geonet\wro4j\GeonetWroModelFactoryTest.class
+org\fao\geonet\wro4j\ClosureDependencyUriLocatorTest.class
+org\fao\geonet\wro4j\ClosureRequireDependencyManagerTest$2.class
+org\fao\geonet\wro4j\DiskbackedCacheTest.class

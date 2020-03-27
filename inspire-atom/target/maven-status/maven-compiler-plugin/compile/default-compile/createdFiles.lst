@@ -1,0 +1,13 @@
+org\fao\geonet\services\inspireatom\AtomHarvester.class
+org\fao\geonet\inspireatom\InspireAtomService.class
+org\fao\geonet\services\inspireatom\AtomPredefinedFeed.class
+org\fao\geonet\inspireatom\harvester\InspireAtomHarvesterScheduler.class
+org\fao\geonet\inspireatom\harvester\InspireAtomHarvester.class
+org\fao\geonet\services\inspireatom\AtomServiceDescription.class
+org\fao\geonet\inspireatom\InspireAtomType.class
+org\fao\geonet\inspireatom\harvester\InspireAtomHarvesterJob.class
+org\fao\geonet\inspireatom\util\InspireAtomUtil.class
+org\fao\geonet\inspireatom\harvester\InspireAtomHarvesterJobListener.class
+org\fao\geonet\services\inspireatom\AtomDescribe.class
+org\fao\geonet\services\inspireatom\AtomSearch.class
+org\fao\geonet\services\inspireatom\AtomGetData.class

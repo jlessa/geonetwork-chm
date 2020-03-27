@@ -1,0 +1,14 @@
+org\fao\geonet\utils\AbstractIOTest.class
+org\fao\geonet\utils\GeonetHttpRequestFactoryTest.class
+org\fao\geonet\utils\GeonetHttpRequestFactoryTest$3.class
+org\fao\geonet\utils\GeonetHttpRequestFactoryTest$4.class
+org\fao\geonet\utils\XmlTest.class
+org\fao\geonet\ZipUtilTest.class
+org\fao\geonet\utils\GeonetHttpRequestFactoryTest$1.class
+org\fao\geonet\utils\PrefixUrlRewriteTest.class
+org\fao\geonet\utils\GeonetHttpRequestFactoryTest$2.class
+org\fao\geonet\utils\NioPathAwareCatalogResolverMemoryFsTest.class
+org\fao\geonet\utils\NioPathAwareCatalogResolverTest.class
+org\fao\geonet\utils\IOMemoryFsTest.class
+org\fao\geonet\utils\IOTest.class
+org\fao\geonet\ZipUtilTest$1.class

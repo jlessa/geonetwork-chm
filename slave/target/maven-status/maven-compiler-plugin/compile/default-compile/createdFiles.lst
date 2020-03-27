@@ -1,0 +1,4 @@
+org\fao\geonet\readonly\InterceptsUserUpdate.class
+org\fao\geonet\readonly\InterceptsStartup$1.class
+org\fao\geonet\readonly\InterceptsStartup.class
+org\fao\geonet\readonly\InterceptsUserAdd.class

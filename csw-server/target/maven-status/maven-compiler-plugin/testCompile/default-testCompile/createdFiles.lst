@@ -1,0 +1,3 @@
+org\fao\geonet\component\csw\CswGetRecords_SearchOrderIntegrationTest.class
+org\fao\geonet\component\csw\CswTransactionIntegrationTest.class
+org\fao\geonet\component\csw\CswGetRecords_Test.class

@@ -1,0 +1,6 @@
+org\fao\geonet\doi\client\DoiBuilder.class
+org\fao\geonet\doi\client\DoiSettings.class
+org\fao\geonet\doi\client\DoiClient.class
+org\fao\geonet\doi\client\DoiConditions.class
+org\fao\geonet\doi\client\DoiClientException.class
+org\fao\geonet\doi\client\DoiManager.class

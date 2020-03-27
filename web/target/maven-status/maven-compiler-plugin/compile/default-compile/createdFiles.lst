@@ -1,0 +1,15 @@
+v2110\MoveHarvesterSettings.class
+org\fao\geonet\Geonetwork$2.class
+org\fao\geonet\Geonetwork$1.class
+org\fao\geonet\proxy\URITemplateProxyServlet.class
+v350\UrlComponentsDetectorsRegexMigration.class
+org\fao\geonet\i18n\UrlLocaleChangeInterceptor.class
+v300\SetSequenceValueToMaxOfMetadataAndStats.class
+v370\HumanizeDatesUiMigration.class
+org\fao\geonet\Geonetwork.class
+v370\UserCustomSearchesMigration.class
+v280\MoveHarvesterSettingsToHigherNumber.class
+v280\MoveHarvesterSettingsToHigherNumber$HarvesterSetting.class
+v343\AdvancedSearchFormMigration.class
+org\fao\geonet\DatabaseMigration.class
+v350\LogoPositionInHeaderMigration.class

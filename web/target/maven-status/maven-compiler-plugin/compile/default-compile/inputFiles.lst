@@ -1,0 +1,13 @@
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v370\HumanizeDatesUiMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\java\org\fao\geonet\DatabaseMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\java\org\fao\geonet\i18n\UrlLocaleChangeInterceptor.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v300\SetSequenceValueToMaxOfMetadataAndStats.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v350\LogoPositionInHeaderMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\java\org\fao\geonet\proxy\URITemplateProxyServlet.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v370\UserCustomSearchesMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v2110\MoveHarvesterSettings.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v343\AdvancedSearchFormMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v280\MoveHarvesterSettingsToHigherNumber.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\java\org\fao\geonet\Geonetwork.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\webapp\WEB-INF\classes\setup\sql\migrate\v350\UrlComponentsDetectorsRegexMigration.java
+C:\Users\Jefferson\Desktop\CHM-531\geonetwork\geonetwork\web\src\main\java\org\fao\geonet\package-info.java

@@ -1,0 +1,11 @@
+v350\UrlComponentsDetectorsRegexMigrationTest.class
+org\fao\geonet\kernel\schema\TestIso19139SchematronDefinition.class
+v370\HumanizeDatesUiMigrationTest.class
+org\fao\geonet\kernel\schema\AbstractInspireTest.class
+org\fao\geonet\wro4j\Wro4jJsCssCompilationTest.class
+v370\UserCustomSearchesMigrationTest.class
+org\fao\geonet\kernel\schema\SchematronRulesIsoTest.class
+org\fao\geonet\kernel\schema\BasicInspireTest.class
+v343\AdvancedSearchFormMigrationTest.class
+org\fao\geonet\kernel\schema\StrictInspireTest.class
+org\fao\geonet\kernel\schema\AbstractSchematronTest.class

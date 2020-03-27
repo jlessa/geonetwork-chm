@@ -1,0 +1,17 @@
+org\fao\geonet\harvester\wfsfeatures\model\WFSHarvesterParameter.class
+org\fao\geonet\harvester\wfsfeatures\worker\WFSHarvesterExchangeState.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$AsyncBulkResutHandler.class
+org\fao\geonet\harvester\wfsfeatures\WFSHarvesterApi$1.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$SyncBulkResutHandler.class
+org\fao\geonet\harvester\wfsfeatures\WFSHarvesterApi.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$3.class
+org\fao\geonet\harvester\wfsfeatures\event\WFSHarvesterEvent.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$2.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$Report.class
+org\fao\geonet\harvester\wfsfeatures\worker\WFSFeatureUtils.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$TitleResolver.class
+org\fao\geonet\harvester\wfsfeatures\worker\WFSHarvesterRouteBuilder.class
+org\fao\geonet\harvester\wfsfeatures\worker\OwsUtils.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$1.class
+org\fao\geonet\harvester\wfsfeatures\worker\EsWFSFeatureIndexer$BulkResutHandler.class
