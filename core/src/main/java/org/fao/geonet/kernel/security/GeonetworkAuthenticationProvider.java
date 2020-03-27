@@ -38,6 +38,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+//import to create lock file
+import org.eclipse.osgi.framework.adaptor.FilePath;
+import org.fao.geonet.constants.Geonet;
+import org.fao.geonet.util.FileUserLockUtil;
+import org.fao.geonet.util.FileUtil;
+import org.fao.geonet.utils.FilePathChecker;
+
 public class GeonetworkAuthenticationProvider extends AbstractUserDetailsAuthenticationProvider
     implements UserDetailsService {
 
@@ -67,9 +74,32 @@ public class GeonetworkAuthenticationProvider extends AbstractUserDetailsAuthent
 
         if (authentication.getCredentials().toString().isEmpty() ||
             !encoder.matches(authentication.getCredentials().toString(), gnDetails.getPassword())) {
+
+            //Create file if Bad Login
+            FileUserLockUtil fileUserLockUtil = new FileUserLockUtil(userDetails.getUsername());
+
+            if (fileUserLockUtil.verifyUserLockFile()) {
+                if (fileUserLockUtil.getErrorAttempts() >= 4) {
+
+                    final ConfigurableApplicationContext applicationContext = ApplicationContextHolder.get();
+                    UserRepository userRepository = applicationContext.getBean(UserRepository.class);
+                    User user = userRepository.findOneByUsername(userDetails.getUsername());
+                    user.setEnabled(false);
+                    userRepository.save(user);
+
+                    fileUserLockUtil.deleteFile();
+                } else {
+                    //Count fails in file
+                    fileUserLockUtil.addFailedLoginAttempt();
+                }
+            }
+
             Log.warning(Log.JEEVES, "Authentication failed: wrong password provided");
             throw new BadCredentialsException("Authentication failed: wrong password provided");
         }
+        //Delete if Login Ok
+        FileUserLockUtil fileUserLockUtil = new FileUserLockUtil(userDetails.getUsername());
+        fileUserLockUtil.deleteFile();
     }
 
     @Override
